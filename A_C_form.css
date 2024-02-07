@@ -1,0 +1,521 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+/** Input Form to create an Amazon account **/
+
+/** amazon logo **/
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.logo div{
+    height: 45px;
+    width: 150px;
+}
+
+/** form box **/
+
+.form {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.form_box {
+    height: 450px;
+    width: 450px;
+    border: 1.7px solid gainsboro;
+    border-radius: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#sign_in {
+    font-size: 40px;
+    font-weight: 300;
+    margin-left : 30px;
+    margin-top: 20px;
+}
+
+#email {
+    font-weight: bold;
+    margin-left : 30px;
+    margin-top: 20px;
+}
+
+#input_box {
+    margin-left : 30px;
+    margin-top: 10px;
+    height: 36px;
+    width: 85%;
+    border: 0.1px solid gray;
+    border-radius: 6px;
+}
+
+.form_box button {
+    background-color: rgb(255, 191, 71);
+    color: black;
+    font-size: medium;
+    width: 85%;
+    height: 40px;
+    margin-left : 30px;
+    margin-top: 15px;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+}
+
+button:active {
+    border: 2px solid aliceblue;
+}
+
+#condition {
+    margin-left : 35px;
+    margin-top: 20px;
+    margin-right: 30px;
+    font-size: 15px;
+}
+
+#c_u {
+    color: #0066c0;
+}
+
+#c_u:hover {
+    color: rgb(233, 121, 80);
+    text-decoration: underline;
+}
+
+#p_n {
+    color: #0066c0;
+}
+
+#p_n:hover {
+    color: rgb(233, 121, 80);
+    text-decoration: underline;
+}
+
+#help {
+    margin-top: 20px;
+    margin-left: 35px;
+}
+
+#i_c {
+    color: dimgray;
+}
+
+#n_h {
+    color: #0066c0;
+    margin-left: 5px;
+}
+
+#n_h:hover {
+    color: rgb(233, 121, 80);
+    text-decoration: underline;
+}
+
+#line {
+    border: 0.1px solid gainsboro;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#buy {
+    margin-left: 35px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+#shop{
+    margin-left: 35px;
+    margin-top: 15px;
+    color: #0066c0;
+}
+
+#shop:hover {
+    color: rgb(233, 121, 80);
+    text-decoration: underline;
+}
+
+/** next section **/
+
+.n_2_a {
+    margin-top: 40px;
+    color: dimgray;
+}
+
+.hr1 {
+    margin-top: 40px;
+    margin-left: 38%;
+    width: 150px;
+}
+
+.n_2_a span {
+    margin-left: 46.5%;
+    position: relative;
+    top: -10px;
+}
+
+.hr2 {
+    width: 170px;
+    position: relative;
+    top: -17px;
+    left: 52.5%;
+}
+
+.but {
+    display: flex;
+    justify-content: center;
+}
+
+#create_account {
+    background-color : white;
+    width: 24.5%;
+    height: 40px;
+    border: 2px solid gainsboro;
+    border-radius: 7px;
+    font-size: medium;
+}
+
+#create_account:hover {
+    background-color: whitesmoke;
+}
+
+#create_account:active {
+    border:2px solid aliceblue;
+}
+
+.form_end {
+    margin-top: 40px;
+    height: 400px;
+    border: 1.5px solid rgb(207, 203, 203);
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+.foot {
+    margin-top: 20px;
+    margin-left: 340px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    width: 400px;
+}
+
+#foot1 {
+    color: #0066c0;
+}
+
+#foot1:hover {
+    color: rgb(233, 121, 80);
+    text-decoration: underline;
+}
+
+#foot2 {
+    color: #0066c0;
+}
+
+#foot2:hover {
+    color: rgb(233, 121, 80);
+    text-decoration: underline;
+}
+
+#foot3 {
+    color: #0066c0;
+}
+
+#foot3:hover {
+    color: rgb(233, 121, 80);
+    text-decoration: underline;
+}
+
+#copy {
+    position: relative;
+    bottom: -13%;
+    left: -21.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 400px;
+}
+
+
+
+/********************************************************* navbar options **********************************************************/
+
+.header_sign_in {
+    height: 550px;
+    width: 650px;
+    border: 1px solid dimgray;
+    margin-top: 80px;
+    margin-left: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+#t_d {
+    text-decoration: none;
+}
+
+.header_button {
+    font-size: larger;
+    height: 30px;
+    width: 200px;
+    color: black;
+    border-radius: 7px;
+    background-color: rgb(255, 194, 80);
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 1px solid orange;
+    position: relative;
+    left: 38%;
+}
+
+.header_button:active {
+    border: 1px solid orangered;
+}
+
+#new-customer-start-here {
+    margin-top: 15px;
+    position: relative;
+    left: 40%;
+}
+
+#new_customer {
+    font-size: larger;
+    cursor: pointer;
+}
+
+#start_here {
+    color: #0066c0;
+    font-size: small;
+    cursor: pointer;
+}
+
+#start_here:hover {
+    color: orangered;
+    text-decoration: underline;
+}
+
+#h-b-line1 {
+    margin-top: 20px;
+    height: 0px;
+    width: 640px;
+    margin-left: -1px;
+    border-bottom: 1px solid rgb(234, 221, 221);
+}
+
+#h-b-line2 {
+    margin-top: 14px;
+    height: 400px;
+    width: 0px;
+    margin-left: 55%;
+    border-left: 1px solid rgb(234, 221, 221);
+}
+
+#your_list {
+    font-size: 25px;
+    font-weight: bolder;
+    position: absolute;
+    top: 22%;
+    left: 43%;
+}
+
+#y-l-item1 {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 26%;
+    left: 43.5%;
+}
+
+#y-l-item1:hover {
+    text-decoration: underline;
+    color: orangered;
+}
+
+#y-l-item2 {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 29%;
+    left: 43.5%;
+}
+
+#y-l-item2:hover {
+    text-decoration: underline;
+    color: orangered;
+}
+
+#your_account {
+    font-size: 25px;
+    font-weight: bolder;
+    position: absolute;
+    top: 22%;
+    left: 61%;
+}
+
+#y-a-item1 {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 26%;
+    left: 61.5%;
+}
+
+#y-a-item1:hover {
+    text-decoration: underline;
+    color: orangered;
+}
+
+#y-a-item2 {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 29%;
+    left: 61.5%;
+}
+
+#y-a-item2:hover {
+    text-decoration: underline;
+    color: orangered;
+}
+
+#y-a-item3 {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 32%;
+    left: 61.5%;
+}
+
+#y-a-item3:hover {
+    text-decoration: underline;
+    color: orangered;
+}
+
+#y-a-item4 {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 35%;
+    left: 61.5%;
+}
+
+#y-a-item4:hover {
+    text-decoration: underline;
+    color: orangered;
+}
+
+#y-a-item5 {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 38%;
+    left: 61.5%;
+}
+
+#y-a-item5:hover {
+    text-decoration: underline;
+    color: orangered;
+}
+
+#y-a-item6 {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 41%;
+    left: 61.5%;
+}
+
+#y-a-item6:hover {
+    text-decoration: underline;
+    color: orangered;
+}
+
+#y-a-item7 {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 44%;
+    left: 61.5%;
+}
+
+#y-a-item7:hover {
+    text-decoration: underline;
+    color: orangered;
+}
+
+#y-a-item8 {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 47%;
+    left: 61.5%;
+}
+
+#y-a-item8:hover {
+    text-decoration: underline;
+    color: orangered;
+}
+
+#y-a-item9 {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 61.5%;
+}
+
+#y-a-item9:hover {
+    text-decoration: underline;
+    color: orangered;
+}
+
+#y-a-item10 {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 53%;
+    left: 61.5%;
+}
+
+#y-a-item10:hover {
+    text-decoration: underline;
+    color: orangered;
+}
+
+#y-a-item11 {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 56%;
+    left: 61.5%;
+}
+
+#y-a-item11:hover {
+    text-decoration: underline;
+    color: orangered;
+}
+
+/****************************************** *********************************************/
